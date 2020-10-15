@@ -27,7 +27,7 @@ In order to have a scalable inference endpoint for your ML model, you then creat
 
 ### Non-automated workflow
 
-In a non-automated workflow, when you develop your ML model, you upload this model to your data collection at Algorithmia either manually, via Algorithmia's web interface; or programmatically, via its data API (TODO: Link here!)
+In a non-automated workflow, when you develop your ML model, you upload this model to your data collection at Algorithmia either manually, via Algorithmia's web interface; or programmatically, via its [data API](https://algorithmia.com/developers/api/#introduction).
 
 If you don't want to override your existing model files at Algorithmia, you upload your model with a new name. With relation to this change, you also want to change your inference script to load and use this new model file in your algorithm. Or you may want to update your inference script for a different reason, regardless of your model iterations. 
 
@@ -96,7 +96,7 @@ You'll also notice that some of the inputs have default values, so that you're n
 ## How to get started with this integration?
 
 ### Algorithmia's Template ML Repository at Github
-To get you started with this integration, we created a Github template repository TODO: link here containing some necessary pieces as a starter kit. You can either take this as a starting point and use the green `Use this Template` button to create your own repository off of it, or clone this repo and copy the desired files to over to your existing ML repository.
+To get you started with this integration, we created a [Github template repository](https://github.com/algorithmiaio/githubactions-modeldeployment-template) containing some necessary pieces as a starter kit. You can either take this as a starting point and use the green `Use this Template` button to create your own repository off of it, or clone this repo and copy the desired files to over to your existing ML repository.
 
 ### What does the template repo come with?
 Your starter kit comes with the following files to get you up to speed with this integration:
@@ -115,7 +115,7 @@ For each step below, you'll be able to jump to the related file in the repositor
 
 Let's walk over a typical set up, step by step:
 
-1. Either create a new repository using our ML template repo at Github, or clone this repository and copy the files over to your existing repository. (TODO: link to template)
+1. Either create a new repository using our [ML template repo at Github](https://github.com/algorithmiaio/githubactions-modeldeployment-template), or clone this repository and copy the files over to your existing repository. 
 ![](images/ml_template_repo.png)
 
 2. Go to your repository's Settings -> Secrets and input the secret variables, depending on where your algorithm repository is hosted at. 
